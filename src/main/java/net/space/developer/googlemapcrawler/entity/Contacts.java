@@ -39,7 +39,7 @@ public class Contacts {
     @Field
     private String email; // email
     @Field
-    private String projectId; // biutix integra project identifier
+    private String projectId; // project identifier
     @Field
     private String contactPerson; // company owner or person to contract
     @Field

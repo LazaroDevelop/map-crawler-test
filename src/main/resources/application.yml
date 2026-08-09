@@ -1,6 +1,6 @@
 spring:
   application:
-    name: google-map-crawler-test
+    name: map-crawler-test
   data:
    mongodb:
      database: testdb
