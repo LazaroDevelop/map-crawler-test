@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: google-map-crawler-test
+  data:
+   mongodb:
+     database: testdb
+     username: test
+     password: test*
+     uri: mongodb://localhost:27017
+
+server:
+  port: ${PORT0:8082}
+
+google:
+  map:
+    api:
+      key: ${GOOGLE_MAP_API_KEY:}
+
+jwt:
+  secret: ${SECRET_KEY:}
+
+crypto:
+  secret: ${CRYPTO_KEY:}
